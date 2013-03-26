@@ -1,0 +1,276 @@
+/* 
+    Document   : style.css
+    Created on : 12 déc. 2011, 15:27:02
+    Author     : Marc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+html {
+display: block;
+}
+div {
+display: block;
+}
+html, body{
+    height: 100%; 
+        margin: 0;
+padding: 0;
+}
+html[dir=ltr] {
+unicode-bidi: embed;
+direction: ltr;
+}
+*{
+     word-wrap: break-word;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+}
+p, ul, ol, blockquote, input, select {
+    font-size: 12px;
+}
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+textarea, input[type="text"], input[type="password"], input[type="file"], input[type="button"], input[type="submit"], input[type="reset"], select {
+    background-color: #FFFFFF;
+    border-color: #DFDFDF;
+}
+label {
+    color: #222222;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+label {
+    font-weight: normal;
+   }
+label {
+    display: block;
+    font-size: 12px;
+    padding: 2px;
+}
+textarea, input, select {
+    margin: 1px;
+    padding: 3px;
+}
+
+.form-field input, .form-field textarea {
+    border-style: solid;
+    border-width: 1px;
+    width: 95%;
+}
+
+.widefat {
+      width: 59%;
+    border-spacing: 0;
+    border-style: solid;
+     background-color: #F9F9F9;
+    border-color: #DFDFDF;
+       border-radius: 3px 3px 3px 3px;
+    border-spacing: 0;
+    border-style: solid;
+    border-width: 1px;
+    clear: both;
+    margin: 0;
+
+}
+.manage-column {  background-color: #F1F1F1;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #ECECEC);
+ padding: 0;
+ color: #333333;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    border-bottom-color: #DFDFDF;
+    border-top-color: #FFFFFF;
+ overflow: hidden;
+     font-size: 14px;
+    line-height: 1.3em;
+      text-align: center;
+   
+
+}
+
+th{
+       font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    font-weight: normal;
+}
+.column-name {}
+.sortable{}
+.desc{}
+table.fixed {
+    table-layout: fixed;
+}
+.widefat th {
+    font-size: 14px;
+    line-height: 1.3em;
+  text-align: left; 
+      
+    overflow: hidden;
+    padding: 7px 7px 8px;
+ 
+     border-bottom-color: #DFDFDF;
+    border-top-color: #FFFFFF;
+}
+.widefat td {
+    padding: 4px 7px 2px;
+    vertical-align: top;
+}
+.widefat td {
+     border-bottom-color: #DFDFDF;
+    border-top-color: #FFFFFF;
+  color: #555555;
+}
+#container{
+    width: 1024px; 
+    margin: auto ; 
+    min-height: 100%;
+    position: relative; 
+}
+#tablerow1{
+    display: table-cell;
+    width: 85%;
+}
+#tablerow2{
+       display: table-cell;
+    padding-right: 80px;
+}
+
+ .postbox{
+    background-color: #F5F5F5;
+    background-image: -moz-linear-gradient(center top , #F9F9F9, #F5F5F5);
+}
+.postbox{
+    border-color: #DFDFDF;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+}
+.postbox {
+ 
+    min-width: 160px; 
+    position: relative;
+  
+}
+
+.postbox  h3, .metabox-holder h3 {
+    font-family: Georgia,"Times New Roman","Bitstream Charter",Times,serif;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding: 7px 10px;
+}
+.postbox .hndle {
+    cursor: move;
+}
+.postbox h3 {
+    color: #464646;
+}
+.postbox h3, .stuffbox h3 {
+    border-bottom-color: #DFDFDF;
+    box-shadow: 0 1px 0 #FFFFFF;
+    text-shadow: 0 1px 0 #FFFFFF;
+}
+.inner-sidebar{
+   clear: right;
+    display: block;
+    float: right;
+    position: relative;
+    width: 185px;
+
+}
+.inner-sidebar ul li {
+    list-style: none ; 
+}
+.inner-sidebar span{
+       vertical-align: middle;
+    vertical-align: middle;
+}
+.column{   clear: left;
+    float: left;
+    margin-right: -340px;
+    width: 100%;}
+label {
+    cursor: pointer;
+}
+.inner-sidebar input[type="checkbox"]
+{
+    float: left; 
+    margin-right: 5px; 
+    margin-top: 3px; 
+}
+.inner-sidebar label{
+   
+}
+.postbox ul li{
+    margin-bottom: 5px; 
+    margin-top: 5px; 
+}
+#category-all, #tag-all {
+    border-style: solid;
+    border-width: 1px;
+    height: 200px;
+    overflow: auto;
+    padding: 0.5em 0.9em;
+       background-color: #FFFFFF;
+    border-color: #DFDFDF;
+}
+#container_tag {
+    margin-top: 15px; 
+}
+.align-center{text-align: center}
+#link_article{width: 480px; border: 1px solid #000; 
+margin: auto ; padding-left: 15px; padding-top: 15px; padding-bottom: 15px; }
+#link_article ul li {list-style: none ; }
+
+#footer {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+padding: 10px 0;
+margin-right: 20px;
+border-top-width: 1px;
+border-top-style: solid;
+}
+#thx{
+    text-align: left
+}
+#version {
+    text-align: right; 
+    float: right
+}
+#title, #url, #login, #mdp, #hote, #login_base, #mdp_bdd, #url_ftp, #login_ftp, #mdp_ftp, #login_bdd, #nom_site{
+    padding: 3px 8px;
+font-size: 1.7em;
+line-height: 100%;
+width: 76%;
+outline: none;
+}
+#ajout_blog legend{ font-size: 22px;
+        padding-left: 15px; 
+        padding-bottom: 20px; 
+        padding-top: 20px; 
+}#ajout_blog{
+margin: auto; 
+width: 100%; 
+display: block;padding-left: 65px;  }
+.vert a{
+    color: #0fd426;
+}
+.rouge a {
+    color : #d40f0f;
+}
